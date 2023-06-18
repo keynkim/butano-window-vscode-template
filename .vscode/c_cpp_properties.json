@@ -1,0 +1,35 @@
+{
+  "env": {},
+  "configurations": [
+    {
+      "name": "Butano",
+      "includePath": [
+        "${workspaceFolder}\\include",
+        "${workspaceFolder}\\build",
+        "${workspaceFolder}\\engine\\butano\\include",
+        "${workspaceFolder}\\engine\\common\\include",
+        "c:\\devkitpro\\libgba\\include\\**",
+        "c:\\devkitpro\\devkitARM\\include\\**",
+        "c:\\devkitpro\\devkitARM\\arm-none-eabi\\include\\**"
+      ],
+      "defines": [],
+      "compilerPath": "c:\\devkitpro\\devkitARM\\bin\\arm-none-eabi-g++",
+      "cStandard": "c11",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "linux-gcc-arm",
+      "browse": {
+        "path": [
+          "${workspaceFolder}\\include",
+          "${workspaceFolder}\\engine\\butano\\include",
+          "${workspaceFolder}\\engine\\common\\include",
+          "c:\\devkitpro\\libgba\\include",
+          "c:\\devkitpro\\devkitARM\\include",
+          "c:\\devkitpro\\devkitARM\\arm-none-eabi\\include"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}
