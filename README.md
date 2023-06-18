@@ -19,9 +19,10 @@
     make -j#cpu-cores# 
     ```
     For example, you can use `make -j8` or `make -j16` depending on the number of CPU cores you have
-2. Run `butano-window-vscode-template.gba` from the root 
+2. Run `butano-window-vscode-template.gba` from the root
+   
    You should see the text `'BUTANO-WINDOW-VSCODE-TEMPLATE'` displayed on the screen 
-3. (Optional) Cleanup
+4. (Optional) Cleanup
     If needed, you can delete the build and gba files by running the command
     ```
     make clean
